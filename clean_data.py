@@ -1,6 +1,6 @@
 import unidecode
 
-path = "C:/Users/Renzo/Documents/Ren/Proyectos/futbol_empirico/analisis_ligas/Superliga/DefAttributesSuperliga/"
+path = ""
 
 with open(path + "whoscored_data.txt", "r", encoding="utf-8") as f:
     data_list = f.readlines()
